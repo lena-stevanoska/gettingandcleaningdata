@@ -7,13 +7,7 @@
 	The identifier of the tested subject
 ##Activity		
 
-string 
-	WALKING
-	WALKING_UPSTAIRS
-	WALKING_DOWNSTAIRS
-	SITTING
-	STANDING
-	LAYING
+WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 
 	The label of the activity that the subject was performing when the measurments were done
