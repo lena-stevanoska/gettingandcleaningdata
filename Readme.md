@@ -20,6 +20,19 @@ To run the script use the following process:
 3. In R execute the following command:
 source("run_analysis.R")
 
+The script contains comments on every step of the execution and it follows the 5 tasks as specified in the project definition.
+
+In general, the following is executing:
+
+1. Loading the training data
+2. Loading the test data
+3. Merging all the data in one dataset
+4. Process the features to find only the one that are for mean and std
+5. Extract only the values matching those variables
+6. Transform the Activity codes in the Activity names, using the activity_labels.txt
+7. Change the Labels of the dataset to descriptive names using the features.txt 
+8. Create a tidy data that contains the mean of all the variables for a specific Subject and Activity
+
 It will display the finaldata dataset (which is the resulting dataset of all the transformations) in a nice tabulated output.
 
 
