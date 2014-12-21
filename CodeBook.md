@@ -12,6 +12,7 @@ double
 ##fBodyAcc-mean-Z         
 
 double
+
 	The mean of the Fast Fourier Transform (FFT) applied on the mean of the Body Acceleration on the Z axis
 ##fBodyAcc-std-X 			
 
@@ -31,14 +32,17 @@ double
 ##fBodyAccJerk-mean-X   	
 
 double
+
 	The mean of the Fast Fourier Transform (FFT) applied on the mean of the Body Acceleration Jerk on the X axis
 ##fBodyAccJerk-mean-Y     
 
 double
+
 	The mean of the Fast Fourier Transform (FFT) applied on the mean of the Body Acceleration Jerk on the Y axis
 ##fBodyAccJerk-mean-Z     
 
 double
+
 	The mean of the Fast Fourier Transform (FFT) applied on the mean of the Body Acceleration Jerk on the Z axis
 ##fBodyAccJerk-std-X      
 
@@ -47,18 +51,22 @@ double
 ##fBodyAccJerk-std-Y      
 
 double
+
 	The mean of the Fast Fourier Transform (FFT) applied on the standard deviation of the Body Acceleration Jerk on the Y axis
 ##fBodyAccJerk-std-Z      
 
 double
+
 	The mean of the Fast Fourier Transform (FFT) applied on the standard deviation of the Body Acceleration Jerk on the Z axis
 ##fBodyAccJerkMag-mean    
 
 double
+
 	The mean of the Fast Fourier Transform (FFT) applied on the mean of the Body Acceleration Jerk Magnitude
 ##fBodyAccJerkMag-std     
 
 double
+
 	The mean of the Fast Fourier Transform (FFT) applied on the standard deviation of the Body Acceleration Jerk Magnitude
 ##fBodyAccMag-mean		
 
@@ -68,6 +76,7 @@ double
 ##fBodyAccMag-std         
 
 double
+
 	The mean of the Fast Fourier Transform (FFT) applied on the standard deviation of the Body Acceleration Magnitude
 ##fBodyGyro-mean-X		
 
@@ -77,42 +86,52 @@ double
 ##fBodyGyro-mean-Y        
 
 double
+
 	The mean of the Fast Fourier Transform (FFT) applied on the mean of the Body Gyroscope on the Y axis
 ##fBodyGyro-mean-Z        
 
 double
+
 	The mean of the Fast Fourier Transform (FFT) applied on the mean of the Body Gyroscope on the Z axis
 ##fBodyGyro-std-X         
 
 double
+
 	The mean of the Fast Fourier Transform (FFT) applied on the standard deviation of the Body Gyroscope on the X axis
 ##fBodyGyro-std-Y         
 
 double
+
 	The mean of the Fast Fourier Transform (FFT) applied on the standard deviation of the Body Gyroscope on the Y axis
 ##fBodyGyro-std-Z         
 
 double
+
 	The mean of the Fast Fourier Transform (FFT) applied on the standard deviation of the Body Gyroscope on the Z axis
 ##fBodyGyroJerkMag-mean 	
 
 double
+
 	The mean of the Fast Fourier Transform (FFT) applied on the mean of the Body Gyroscope Jerk Magnitude
 ##fBodyGyroJerkMag-std    
 
 double
+
 	The mean of the Fast Fourier Transform (FFT) applied on the standard deviation of the Body Gyroscope Jerk Magnitude
 ##fBodyGyroMag-mean    	
 
 double
+
 	The mean of the Fast Fourier Transform (FFT) applied on the mean of the Body Gyroscope Magnitude
 ##fBodyGyroMag-std        
 
 double
+
 	The mean of the Fast Fourier Transform (FFT) applied on the standard deviation of the Body Gyroscope Magnitude
 ##tBodyAcc-mean-X         
 
 double
+
 	The mean of the mean of the Body Acceleration on the X axis
 ##tBodyAcc-mean-Y         
 
