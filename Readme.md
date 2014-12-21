@@ -24,6 +24,7 @@ write.table(finaldata,"finaldata.txt",row.name=FALSE)
 To review the data please use the following commands:
 
 data <- read.table("finaldata.txt", header = TRUE) 
+
 View(data)
 
 This two lines of code were taken from the following location https://class.coursera.org/getdata-016/forum/thread?thread_id=50
