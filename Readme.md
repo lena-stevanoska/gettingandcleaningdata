@@ -10,7 +10,14 @@ into a tidy dataset that contains the subject, activity and the mean for every v
 To run the script use the following process:
 
 1. Save the script in the folder that contains the "UCI HAR Dataset" folder, which is the extracted zip file from the link above.
-2. In R execute the following command:
+2. The script uses the following packages, please, make sure you have them installed before running the script:
+
+dplyr
+tidyr
+reshape2
+sqldf
+
+3. In R execute the following command:
 source("run_analysis.R")
 
 It will display the finaldata dataset (which is the resulting dataset of all the transformations) in a nice tabulated output.
