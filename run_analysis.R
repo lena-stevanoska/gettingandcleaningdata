@@ -1,24 +1,24 @@
-#1.
+#1. Collect all the data from the training and test folders in one dataset
 
 xtrain<-read.table(".\\UCI HAR Dataset\\train\\X_train.txt")
 ytrain<-read.table(".\\UCI HAR Dataset\\train\\Y_train.txt")
 subjecttrain<-read.table(".\\UCI HAR Dataset\\train\\subject_train.txt")
-
+#Set the column names for the subject and the activity code so that they don't overlap with the measured variables column names
 colnames(subjecttrain)<-"Subject"
 colnames(ytrain)<-"Act_code"
-
+#Create a training set
 trainset<-cbind(subjecttrain,ytrain,xtrain)
 
-
+#Read all the data for the test results 
 xtest<-read.table(".\\UCI HAR Dataset\\test\\X_test.txt")
 ytest<-read.table(".\\UCI HAR Dataset\\test\\Y_test.txt")
 subjecttest<-read.table(".\\UCI HAR Dataset\\test\\subject_test.txt")
-
+#Set the column names for the subject and the activity code so that they don't overlap with the measured variables column names
 colnames(subjecttest)<-"Subject"
 colnames(ytest)<-"Act_code"
-
+#Create a training set
 testset<-cbind(subjecttest,ytest,xtest)
-
+#Put the training and test results together
 alltogether<-rbind(trainset,testset)
 
 #2. Process the features to find only the one that are for mean and std
