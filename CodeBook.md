@@ -8,6 +8,7 @@ double
 ##fBodyAcc-mean-Y		
 
 double
+
 	The mean of the Fast Fourier Transform (FFT) applied on the mean of the Body Acceleration on the Y axis
 ##fBodyAcc-mean-Z         
 
